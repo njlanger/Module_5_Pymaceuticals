@@ -25,8 +25,8 @@ import scipy.stats as st
 from pathlib import Path
 
 # Load the files
-mouse_metadata_to_load = Path("./Data/Mouse_metadat.csv")
-study_results_to_load = Path("./Data/Study_results.csv")
+mouse_metadata_to_load = Path("https://github.com/njlanger/Module_5_Pymaceuticals/data/Mouse_metadat.csv")
+study_results_to_load = Path("https://github.com/njlanger/Module_5_Pymaceuticals/data/Study_results.csv")
 
 # Study data files
 mouse_metadata_path = "Data/Mouse_metadata.csv"
